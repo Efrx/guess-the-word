@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.board-game-section {
+  background-color: blueviolet;
+  width: clamp(300px, 80vw, 900px);
+  border-radius: 5px;
+  height: 70vh;
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* place-items: center; */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.game-answer {
+  background-color: darkgray;
+  height: 4rem;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-answer span {
+  color: black;
+  font-size: 1.4rem;
+  letter-spacing: 0.6rem;
+}
+/* .game-answer .hidden {
+  color: black;
+  font-size: 1.4rem;
+  letter-spacing: 0.6rem;
+} */
+
+.game-status {
+  width: 80%;
+
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game-word-inputs-container {
+  width: 80%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.game-word-inputs-container input{
+  max-width: 60px;
+  height: 40px;
+  text-align: center;
+  flex-shrink: 1;
+}
+
+.game-options {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
